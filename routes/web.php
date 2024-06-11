@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\GalleryController;
+use App\Models\Gallery;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,10 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('admin.sections.dashboard');
+    return view('user.sections.home');
 });
 Route::get('/galery', function () {
-    return view('user.sections.galery');
+    $galery = Gallery::all();
+    return view('user.sections.galery',[
+        'galery' => $galery
+    ]);
 });
 Route::get('/testimoni', function () {
     return view('user.sections.testimoni');
@@ -27,9 +31,18 @@ Route::get('/layanan', function () {
     return view('user.sections.layanan');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+
+
+
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('admin.sections.dashboard');
+    })->name('dashboard');
+    Route::resource('dashboard-galery', GalleryController::class);
+    Route::get('/dashboard-galery-trash',[GalleryController::class, 'trash']);
+    Route::get('/dashboard-galery-resore/{id}',[GalleryController::class, 'restore']);
+    Route::delete('/dashboard-galery-permanentlydelete/{id}', [GalleryController::class, 'permanentlydelete']);
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -39,4 +52,4 @@ Route::middleware('auth')->group(function () {
 
 
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
