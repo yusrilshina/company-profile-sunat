@@ -15,6 +15,10 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 	<link href="{{ asset('assets') }}/css/tiny-slider.css" rel="stylesheet">
 	<link href="{{ asset('assets') }}/scss/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<style>
+
+	</style>
 	<title>Sahabat Sunat</title>
 </head>
 

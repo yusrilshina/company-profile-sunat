@@ -9,10 +9,7 @@
                     diverban</p>
 
                 <ul class="list-unstyled custom-social">
-                    <li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-                    <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
                     <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-                    <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
                 </ul>
             </div>
 
@@ -23,10 +20,10 @@
                             <li>
                                 <h6 class="text-black fw-bold">Link</h6>
                             </li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="/">Profile</a></li>
+                            <li><a href="/galery">Galery</a></li>
+                            <li><a href="/testimoni">Testimoni</a></li>
+                            <li><a href="/layanan">Layanan</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-sm-6 col-md-4">
@@ -75,6 +72,41 @@
 <script src="{{ asset('assets') }}/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('assets') }}/js/tiny-slider.js"></script>
 <script src="{{ asset('assets') }}/js/custom.js"></script>
+<script>
+     function kirim() {
+            var isi = $('#floatingTextarea2').val();
+            var link = "https://wa.me/6285329040980?text=" + isi;
+            if (isi == "") {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Silahkan Masukkan Pesan Anda !!"
+                });
+            } else {
+                console.log(link);
+                window.open(link);
+            }
+
+        }
+
+          // Dapatkan URL saat ini
+    var currentUrl = window.location.pathname;
+
+// Ambil semua elemen nav-link
+var navLinks = document.querySelectorAll('.custom-navbar-nav .nav-link');
+
+// Iterasi melalui setiap nav-link
+navLinks.forEach(function(link) {
+    // Jika href dari link cocok dengan URL saat ini
+    if (link.getAttribute('href') === currentUrl) {
+        // Tambahkan class 'active' ke elemen li parent dari link tersebut
+        link.parentElement.classList.add('active');
+    } else {
+        // Hapus class 'active' dari elemen li parent dari link yang tidak sesuai
+        link.parentElement.classList.remove('active');
+    }
+});
+</script>
 </body>
 
 </html>

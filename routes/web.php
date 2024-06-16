@@ -35,9 +35,7 @@ Route::get('/layanan', function () {
 
 
 Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('admin.sections.dashboard');
-    })->name('dashboard');
+    Route::get('/dashboard',[GalleryController::class, 'index'])->name('dashboard');
     Route::resource('dashboard-galery', GalleryController::class);
     Route::get('/dashboard-galery-trash',[GalleryController::class, 'trash']);
     Route::get('/dashboard-galery-resore/{id}',[GalleryController::class, 'restore']);
