@@ -23,7 +23,8 @@
             <div class="info" style="  width: 50%;">
                 <h1 class="my-md-3">Sahabat Sunat</h1>
                 <p>Menerima layanan sunat Modern Super-Ring Tanpa disuntik, Tanpa dijahit, Tanpa
-                    diverban</p>
+                    diverban Di dampingi oleh tim yang Prodefional</p>
+            
             </div>
             <div class="foto rounded-circle">
                 <img style=" width: 300px;" src="{{ asset('assets') }}/images/anakSoleh.png" alt="">
@@ -66,9 +67,53 @@
             </div>
         </div>
     </div>
-
+    <div class="untree_co-section py-5">
+        <h2 class="section-title  mx-auto text-center text-white fw-bold mb-5">Metode yang Kami Gunakan</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                    <a style="text-decoration:none;"
+                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
+                        <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
+                        <h3 class="text-center text-white">Metode Stapler</h3>
+                        <div class="accordion"></div>
+                    </a>
+                </div>
+                <!-- End Column 1 -->
+                <!-- Start Column 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                    <a style="text-decoration:none;"
+                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
+                        <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
+                        <h3 class="text-center text-white">Metode Super Ring</h3>
+                        <div class="accordion"></div>
+                    </a>
+                </div>
+                <!-- End Column 1 -->
+                <!-- Start Column 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                    <a style="text-decoration:none;"
+                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
+                        <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
+                        <h3 class="text-center text-white">Metode Flash Couter</h3>
+                        <div class="accordion"></div>
+                    </a>
+                </div>
+                <!-- Start Column 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
+                    <a style="text-decoration:none;"
+                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
+                        <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
+                        <h3 class="text-center text-white">Metode Klamp</h3>
+                        <div class="accordion"></div>
+                    </a>
+                </div>
+                <!-- End Column 1 -->
+            </div>
+        </div>
+    </div>
     <div class="alamat py-3">
-        <h1 class="text-center text-white fw-bold my-md-3 my-sm-3">Contact Us</h1>
+        <h1 class="text-center text-dark fw-bold my-md-3 my-sm-3">Contact Us</h1>
         <div class="container">
             <div class="row d-flex flex-wrap">
                 <div class="col-md-6">
@@ -76,7 +121,7 @@
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.2833266519388!2d112.27307287404561!3d-7.544049374473681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786b1e33b5e5b7%3A0x133d5e8968741f4f!2sPondok%20Pesantren%20Darul%20Ulum%20Jombang!5e0!3m2!1sid!2sid!4v1717629314340!5m2!1sid!2sid"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
-                    <h5 class="text-white">Jl. KH. Rifai Romly, Wonokerto Selatan, Peterongan, Kec. Peterongan, Kabupaten
+                    <h5 class="text-dark">Jl. KH. Rifai Romly, Wonokerto Selatan, Peterongan, Kec. Peterongan, Kabupaten
                         Jombang, Jawa Timur 61481</h5>
                     <div class="col-md-6">
                     </div>
@@ -89,63 +134,12 @@
 
                         </div>
                         <button onclick="kirim()" class="d-block mx-auto my-2 text-center"
-                            style="border-radius:5px; background-color:aliceblue;"><i class="bi bi-whatsapp"></i>
+                            style="border-radius:5px; background-color:#2DAAE1; font-size:1rem; color:white; border:none;"><i
+                                class="bi bi-whatsapp"></i>
                             Kirim</button>
 
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="untree_co-section py-5">
-        <h2 class="section-title  mx-auto text-center fw-bold mb-5">Metode yang Kami Gunakan</h2>
-        <div class="container">
-            <div class="row justify-content-center">
-
-                <!-- Start Column 1 -->
-                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                    <a style="text-decoration:none;"
-                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
-                    <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
-                        <h3 class="text-center text-dark">Metode Stapler</h3>
-                        <div class="accordion"></div>
-                    </a>
-                </div>
-                <!-- End Column 1 -->
-                <!-- Start Column 1 -->
-                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                    <a style="text-decoration:none;"
-                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
-                    <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
-                        <h3 class="text-center text-dark">Metode Super Ring</h3>
-                        <div class="accordion"></div>
-                    </a>
-                </div>
-                <!-- End Column 1 -->
-                <!-- Start Column 1 -->
-                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                    <a style="text-decoration:none;"
-                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
-                    <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
-                        <h3 class="text-center text-dark">Metode Flash Couter</h3>
-                        <div class="accordion"></div>
-                    </a>
-                </div>
-                <!-- Start Column 1 -->
-                <div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-                    <a style="text-decoration:none;"
-                        href="https://www.klikdokter.com/info-sehat/kesehatan-umum/mengenal-metode-sunat-stapler-dan-kelebihannya">
-                    <img src="{{ asset('assets') }}/images/stapler.jpg" class="img-fluid rounded-2 mb-5">
-                        <h3 class="text-center text-dark">Metode Klamp</h3>
-                        <div class="accordion"></div>
-                    </a>
-                </div>
-                <!-- End Column 1 -->
-
-
-
-
             </div>
         </div>
     </div>

@@ -31,9 +31,6 @@ Route::get('/layanan', function () {
     return view('user.sections.layanan');
 });
 
-
-
-
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard',[GalleryController::class, 'index'])->name('dashboard');
     Route::resource('dashboard-galery', GalleryController::class);

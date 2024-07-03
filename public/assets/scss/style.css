@@ -20,7 +20,7 @@ body {
 }
 
 .alamat {
-  background: #3b5d50;
+  background: #ffffff;
 }
 
 a {
@@ -38,7 +38,7 @@ a.more {
 }
 
 .custom-navbar {
-  background: #3b5d50 !important;
+  background: #2DAAE1 !important;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -64,6 +64,7 @@ a.more {
 }
 .custom-navbar .custom-navbar-nav li a {
   font-weight: 500;
+  font-size: 1rem;
   color: #ffffff !important;
   opacity: 0.5;
   transition: 0.3s all ease;
@@ -114,7 +115,7 @@ a.more {
 }
 
 .hero {
-  background: #3b5d50;
+  background: #2DAAE1;
   padding: calc(4rem - 30px) 0 0rem 0;
 }
 @media (min-width: 768px) {
@@ -147,7 +148,8 @@ a.more {
   }
 }
 .hero p {
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  font-size: 1rem;
   margin-botom: 30px;
 }
 .hero .hero-img-wrap {
@@ -217,12 +219,12 @@ a.more {
   box-shadow: none;
 }
 .btn.btn-primary {
-  background: #3b5d50;
-  border-color: #3b5d50;
+  background: #2DAAE1;
+  border-color: #2DAAE1;
 }
 .btn.btn-primary:hover {
-  background: #314d43;
-  border-color: #314d43;
+  background: #1f9ed6;
+  border-color: #1f9ed6;
 }
 .btn.btn-secondary {
   color: #2f2f2f;
@@ -356,7 +358,7 @@ a.more {
   width: 33px;
   height: 33px;
   position: absolute;
-  background: rgba(59, 93, 80, 0.2);
+  background: rgba(45, 170, 225, 0.2);
   border-radius: 50%;
   right: -8px;
   bottom: 0;
@@ -437,7 +439,7 @@ a.more {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 2px solid #3b5d50;
+  border: 2px solid #2DAAE1;
   position: absolute;
   left: 0;
   top: 8px;
@@ -533,12 +535,12 @@ a.more {
   height: 58px;
   line-height: 58px;
   border-radius: 50%;
-  background: rgba(59, 93, 80, 0.1);
+  background: rgba(45, 170, 225, 0.1);
   color: #2f2f2f;
   transition: 0.3s all ease;
 }
 .testimonial-slider-wrap #testimonial-nav > span:hover {
-  background: #3b5d50;
+  background: #2DAAE1;
   color: #ffffff;
 }
 .testimonial-slider-wrap #testimonial-nav .prev {
@@ -580,7 +582,7 @@ a.more {
   background-color: #d6d6d6;
 }
 .testimonial-slider-wrap .tns-nav button:hover:before, .testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
-  background-color: #3b5d50;
+  background-color: #2DAAE1;
 }
 
 .before-footer-section {
@@ -651,7 +653,7 @@ a.more {
 .footer-section .subscription-form h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #3b5d50;
+  color: #2DAAE1;
 }
 .footer-section .subscription-form .form-control {
   height: 50px;
@@ -661,7 +663,7 @@ a.more {
 .footer-section .subscription-form .form-control:active, .footer-section .subscription-form .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #3b5d50;
+  border-color: #2DAAE1;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .footer-section .subscription-form .form-control::-webkit-input-placeholder {
@@ -703,7 +705,7 @@ a.more {
   font-size: 32px;
   font-weight: 500;
   text-decoration: none;
-  color: #3b5d50;
+  color: #2DAAE1;
 }
 .footer-section .custom-social li {
   margin: 2px;
@@ -716,11 +718,11 @@ a.more {
   line-height: 40px;
   display: inline-block;
   background: #dce5e4;
-  color: #3b5d50;
+  color: #2DAAE1;
   border-radius: 50%;
 }
 .footer-section .custom-social li a:hover {
-  background: #3b5d50;
+  background: #2DAAE1;
   color: #ffffff;
 }
 .footer-section .border-top {
@@ -732,6 +734,7 @@ a.more {
 
 .untree_co-section {
   padding: 7rem 0;
+  background-color: #2DAAE1;
 }
 
 .form-control {
@@ -742,7 +745,7 @@ a.more {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #3b5d50;
+  border-color: #2DAAE1;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .form-control::-webkit-input-placeholder {
@@ -767,7 +770,7 @@ a.more {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background: #3b5d50;
+  background: #2DAAE1;
   margin-right: 20px;
   color: #ffffff;
 }
@@ -800,7 +803,7 @@ textarea {
   color: rgba(0, 0, 0, 0.8);
 }
 .site-blocks-table tbody tr:first-child td {
-  border-top: 1px solid #3b5d50 !important;
+  border-top: 1px solid #2DAAE1 !important;
 }
 .site-blocks-table .btn {
   background: none !important;
@@ -822,12 +825,12 @@ textarea {
   border-radius: 10px !important;
 }
 .text-primary {
-  color: #3b5d50 !important;
+  color: #2DAAE1 !important;
 }
 
 .thankyou-icon {
   position: relative;
-  color: #3b5d50;
+  color: #2DAAE1;
 }
 .thankyou-icon:before {
   position: absolute;
@@ -835,5 +838,5 @@ textarea {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(59, 93, 80, 0.2);
+  background: rgba(45, 170, 225, 0.2);
 }/*# sourceMappingURL=style.css.map */
