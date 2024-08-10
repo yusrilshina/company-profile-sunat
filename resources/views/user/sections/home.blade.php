@@ -1,33 +1,14 @@
 @extends('user.main')
 @section('konten')
     <div class="hero" style="height: 100vh;">
-        {{-- <div class="container">
-            <div class="row justify-content-between ">
-                <div class="col-lg-5 align-self-center">
-                    <div class="intro-excerpt ">
-                        <h1>Sahabat <span clsas="d-block">Sunat</span></h1>
-                        <p class="mb-4">Menerima layanan sunat Modern Super-Ring Tanpa disuntik, Tanpa dijahit, Tanpa
-                            diverban</p>
-                        <p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#"
-                                class="btn btn-white-outline">Explore</a></p>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="hero-img-wrap ">
-                        <img src="{{ asset('assets') }}/images/anakSoleh.png" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <div class=" container d-flex align-items-center flex-wrap-reverse justify-content-around">
+        <div class="container align-items-center d-flex flex-wrap-reverse justify-content-around" style="height: 100%;">
             <div class="info" style="  width: 50%;">
                 <h1 class="my-md-3">Sahabat Sunat</h1>
                 <p>Menerima layanan sunat Modern Super-Ring Tanpa disuntik, Tanpa dijahit, Tanpa
-                    diverban Di dampingi oleh tim yang Prodefional</p>
-            
+                    diverban Di dampingi oleh tim yang Prodefional</p>  
             </div>
-            <div class="foto rounded-circle">
-                <img style=" width: 300px;" src="{{ asset('assets') }}/images/anakSoleh.png" alt="">
+            <div class="foto">
+                <img style=" width: 300px;" src="{{ asset('assets') }}/images/bayi-3.png" alt="">
             </div>
         </div>
     </div>
